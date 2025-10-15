@@ -1,25 +1,26 @@
   
     .Cuadro1 {
         float: right;
-        width: 20vw;
-        height: auto;   
+        width: 40vw;
+        height: 43vh;   
         margin: 1rem;
+        border-radius: 1%;
     }
 
 
-    .header1 {
-        background-color: rgb(197, 143, 98);
-        padding: 10px;
-        border: 1hv;
-        flex: auto;
-        display: flex   ;
-        align-items:center;
-        justify-content:space-between;
-        height: 5vh;
+  .header1 {
+    background-color: rgb(197, 143, 98);
+    padding: 10px;
+    border: 1px solid transparent;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: ghostwhite;
-    }
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+  }
     .Logo1 {
         width:230px;
         height: 250px;    
@@ -37,7 +38,7 @@
   }
   .container1{
     background-color:rgb(138, 96, 19);
-    border: 1px;
+    border: 1px solid transparent;
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
@@ -45,7 +46,7 @@
 
   .container2{
     background-color: rgb(193, 149, 91);
-    border: 1px;
+    border: 1px solid transparent;
     display: flex;
 
   }
@@ -81,10 +82,34 @@
  }
  
 
-.phrase1{
-    padding: 15px; 
-    color: aliceblue; 
-     font-family: "Alfa Slab One", serif;
+.phrase1  h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 42px;
   font-weight: 400;
-  font-style: normal;
+  color: rgba(255, 248, 226, 0.767);
+  padding: 1.5vw;
+  margin: 1vh;
 }
+h3{
+  margin: 1vh;
+  padding: 15px;
+}
+
+.phrase1{
+  padding: 10px;
+}
+.button1{
+    margin-left: 30px;
+    font-size: 2.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.cards figcaption{
+  margin-top: 0.5rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #222;
+}
+
