@@ -1,7 +1,7 @@
   
     .Cuadro1 {
         float: right;
-        width: 200px;
+        width: 20vw;
         height: auto;   
         margin: 1rem;
     }
@@ -36,12 +36,57 @@
     padding: 3.5px;
   }
   .container1{
-    background-color:chocolate;
+    background-color:rgb(138, 96, 19);
     border: 1px;
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
 
   }
+
+  .container2{
+    background-color: rgb(193, 149, 91);
+    border: 1px;
+    display: flex;
+
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .column{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    
+  }
+  .column img{
+    max-width: 100%;
+    width: 40vw;
+  }
+
+ .cards{
+    background-color: rgb(104, 79, 42);
+    border: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+ }
+ figcaption{
+    
+    
+ }
+
+
 
  
