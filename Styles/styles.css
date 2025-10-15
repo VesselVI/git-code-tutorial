@@ -41,7 +41,6 @@
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
-
   }
 
   .container2{
@@ -80,11 +79,12 @@
     text-align: center;
     margin: 0px;
  }
- figcaption{
-    
-    
- }
-
-
-
  
+
+.phrase1{
+    padding: 15px; 
+    color: aliceblue; 
+     font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
