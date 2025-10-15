@@ -1,0 +1,47 @@
+  
+    .Cuadro1 {
+        float: right;
+        width: 200px;
+        height: auto;   
+        margin: 1rem;
+    }
+
+
+    .header1 {
+        background-color: rgb(197, 143, 98);
+        padding: 10px;
+        border: 1hv;
+        flex: auto;
+        display: flex   ;
+        align-items:center;
+        justify-content:space-between;
+        height: 5vh;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: ghostwhite;
+    }
+    .Logo1 {
+        width:230px;
+        height: 250px;    
+        overflow: hidden;
+    }
+  a{
+    font-size: 2.3vh;
+    color: black;
+  }
+
+  .quoteNav{
+    background-color: rgb(119, 61, 35);
+    color: aliceblue;
+    padding: 3.5px;
+  }
+  .container1{
+    background-color:chocolate;
+    border: 1px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+
+  }
+
+ 
