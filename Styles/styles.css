@@ -29,6 +29,7 @@
   a{
     font-size: 2.3vh;
     color: black;
+    text-shadow: -1px -1px 2px #ffffff;
   }
 
   .quoteNav{
@@ -70,6 +71,15 @@
     max-width: 100%;
     width: 40vw;
   }
+  #p2{
+    height: 45vh;
+    width: 35vw;
+  }
+  #p1{
+    height: 45vh;
+    width: 35vw;
+  }
+
 
  .cards{
     display: flex;
@@ -93,6 +103,9 @@
 h3{
   margin: 1vh;
   padding: 15px;
+  font-size: 2.5vh;
+  color: rgba(255, 248, 226, 0.767);
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .phrase1{
@@ -102,6 +115,8 @@ h3{
     margin-left: 30px;
     font-size: 2.5vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    box-shadow: inset;
 
 }
 
@@ -110,6 +125,10 @@ h3{
   text-align: center;
   width: 100%;
   display: block;
-  color: #222;
+  color:rgb(51, 54, 58);
+  font-size: 3vh;
+  
+
 }
+
 

@@ -25,9 +25,10 @@
         height: 250px;    
         overflow: hidden;
     }
-  a{
+   a{
     font-size: 2.3vh;
     color: black;
+    text-shadow: -1px -1px 2px #ffffff;
   }
 
   .quoteNav{
@@ -36,10 +37,27 @@
     padding: 3.5px;
   }
   .container1{
-    background-color:chocolate;
+    background-color:rgb(180, 152, 133);
     border: 1px;
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
 
+  }
+
+  .contactoform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    font-size: 2.5vh;
+    
+  }
+  input, button, textarea{
+    margin: 10px;
+    padding: 5px;
+    font-size: 2vh;
+    border-radius: 5px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
